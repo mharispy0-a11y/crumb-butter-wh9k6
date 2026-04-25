@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Menu - Crumb & Butter</title>
+  <meta name="description" content="Indulge in our handcrafted breads, pastries, and expertly brewed coffee">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="nav-brand"><a href="index.html"><span>Crumb</span> & Butter</a></div>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="index.html#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-deco" aria-hidden="true"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M60 180 Q 55 140, 75 110 T 85 60" />
+      <path d="M100 180 Q 95 135, 115 100 T 125 50" />
+      <path d="M140 180 Q 135 145, 155 115 T 165 65" />
+    </svg></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">✦ BAKERY</div>
+        <h1><em>Artisan Sourdough and</em> Specialty Coffee in Lahore</h1>
+        <p class="hero-sub">Indulge in our handcrafted breads, pastries, and expertly brewed coffee</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Order Now →</a>
+          <a href="#services" class="btn btn-outline">View Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="menu" style="background:linear-gradient(180deg,var(--light) 0%,#fff 100%)">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Menu</span>
+        <h2>What's Cooking</h2>
+        <p>Handcrafted with care, served fresh every day.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.5rem;max-width:1100px;margin:0 auto">
+        
+          <div class="menu-item fade-in" style="background:var(--white);border-radius:1rem;padding:1.75rem;box-shadow:0 8px 24px -8px rgba(0,0,0,.12);display:flex;gap:1.25rem;align-items:flex-start">
+            <div style="font-size:2.5rem;flex-shrink:0">🍽️</div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.5rem">
+                <h3 style="margin:0;font-size:1.15rem;color:var(--dark)">Sourdough Loaf</h3>
+                <span style="color:var(--primary);font-weight:700;font-size:1.1rem;white-space:nowrap">Rs. 350</span>
+              </div>
+              <p style="margin:0;color:var(--gray);font-size:.95rem;line-height:1.55">Our signature sourdough loaf made with love and care</p>
+            </div>
+          </div>
+          <div class="menu-item fade-in" style="background:var(--white);border-radius:1rem;padding:1.75rem;box-shadow:0 8px 24px -8px rgba(0,0,0,.12);display:flex;gap:1.25rem;align-items:flex-start">
+            <div style="font-size:2.5rem;flex-shrink:0">👨‍🍳</div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.5rem">
+                <h3 style="margin:0;font-size:1.15rem;color:var(--dark)">Pain au Chocolat</h3>
+                <span style="color:var(--primary);font-weight:700;font-size:1.1rem;white-space:nowrap">Rs. 450</span>
+              </div>
+              <p style="margin:0;color:var(--gray);font-size:.95rem;line-height:1.55">Flaky, buttery pastry filled with rich dark chocolate</p>
+            </div>
+          </div>
+          <div class="menu-item fade-in" style="background:var(--white);border-radius:1rem;padding:1.75rem;box-shadow:0 8px 24px -8px rgba(0,0,0,.12);display:flex;gap:1.25rem;align-items:flex-start">
+            <div style="font-size:2.5rem;flex-shrink:0">🔥</div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.5rem">
+                <h3 style="margin:0;font-size:1.15rem;color:var(--dark)">Cinnamon Roll</h3>
+                <span style="color:var(--primary);font-weight:700;font-size:1.1rem;white-space:nowrap">Rs. 550</span>
+              </div>
+              <p style="margin:0;color:var(--gray);font-size:.95rem;line-height:1.55">Soft, gooey cinnamon roll topped with a sweet glaze</p>
+            </div>
+          </div>
+          <div class="menu-item fade-in" style="background:var(--white);border-radius:1rem;padding:1.75rem;box-shadow:0 8px 24px -8px rgba(0,0,0,.12);display:flex;gap:1.25rem;align-items:flex-start">
+            <div style="font-size:2.5rem;flex-shrink:0">🥘</div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.5rem">
+                <h3 style="margin:0;font-size:1.15rem;color:var(--dark)">Ciabatta</h3>
+                <span style="color:var(--primary);font-weight:700;font-size:1.1rem;white-space:nowrap">Rs. 650</span>
+              </div>
+              <p style="margin:0;color:var(--gray);font-size:.95rem;line-height:1.55">Classic Italian bread perfect for sandwiches or snacking</p>
+            </div>
+          </div>
+          <div class="menu-item fade-in" style="background:var(--white);border-radius:1rem;padding:1.75rem;box-shadow:0 8px 24px -8px rgba(0,0,0,.12);display:flex;gap:1.25rem;align-items:flex-start">
+            <div style="font-size:2.5rem;flex-shrink:0">🍷</div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.5rem">
+                <h3 style="margin:0;font-size:1.15rem;color:var(--dark)">Croissant</h3>
+                <span style="color:var(--primary);font-weight:700;font-size:1.1rem;white-space:nowrap">Rs. 250</span>
+              </div>
+              <p style="margin:0;color:var(--gray);font-size:.95rem;line-height:1.55">Flaky, buttery croissant perfect for breakfast or as a snack</p>
+            </div>
+          </div>
+          <div class="menu-item fade-in" style="background:var(--white);border-radius:1rem;padding:1.75rem;box-shadow:0 8px 24px -8px rgba(0,0,0,.12);display:flex;gap:1.25rem;align-items:flex-start">
+            <div style="font-size:2.5rem;flex-shrink:0">🥖</div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.5rem">
+                <h3 style="margin:0;font-size:1.15rem;color:var(--dark)">Lemon Tart</h3>
+                <span style="color:var(--primary);font-weight:700;font-size:1.1rem;white-space:nowrap">Rs. 400</span>
+              </div>
+              <p style="margin:0;color:var(--gray);font-size:.95rem;line-height:1.55">Tart and tangy lemon filling in a buttery pastry crust</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Gallery</span>
+        <h2>A Glimpse of Our Work</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;max-width:1100px;margin:0 auto">
+        <div class="gallery-tile fade-in" style="aspect-ratio:1/1;background:url('https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=500&q=80') center/cover no-repeat;border-radius:.75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .35s ease"></div><div class="gallery-tile fade-in" style="aspect-ratio:1/1;background:url('https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=500&q=80') center/cover no-repeat;border-radius:.75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .35s ease"></div><div class="gallery-tile fade-in" style="aspect-ratio:1/1;background:url('https://images.unsplash.com/photo-1592151450264-82ff57e7d4bf?auto=format&fit=crop&w=500&q=80') center/cover no-repeat;border-radius:.75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .35s ease"></div><div class="gallery-tile fade-in" style="aspect-ratio:1/1;background:url('https://images.unsplash.com/photo-1486887396153-fa416526c108?auto=format&fit=crop&w=500&q=80') center/cover no-repeat;border-radius:.75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .35s ease"></div><div class="gallery-tile fade-in" style="aspect-ratio:1/1;background:url('https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?auto=format&fit=crop&w=500&q=80') center/cover no-repeat;border-radius:.75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .35s ease"></div><div class="gallery-tile fade-in" style="aspect-ratio:1/1;background:url('https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80') center/cover no-repeat;border-radius:.75rem;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .35s ease"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <h2>Ready to connect with Crumb & Butter?</h2>
+      <p>Reach out today.</p>
+      <a href="tel:0321-8887766" class="btn btn-white">Order Now →</a>
+      <div class="contact-info">
+        <p>📞 <strong><a href="tel:0321-8887766" style="color:inherit;text-decoration:none">0321-8887766</a></strong></p>
+        <p>✉ <strong><a href="mailto:mharis.py0@gmail.com" style="color:inherit;text-decoration:none">mharis.py0@gmail.com</a></strong></p>
+        <p>📍 <strong>Lahore, Pakistan</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span>Crumb</span> & Butter</div>
+          <p class="footer-tagline">Your trusted artisan sourdough bakery.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:mharis.py0@gmail.com">mharis.py0@gmail.com</a></li>
+            <li><a href="tel:0321-8887766">0321-8887766</a></li>
+            <li>Lahore, Pakistan</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Crumb & Butter. All rights reserved.</p>
+        <p>Built with AI Software House OS v5 ⚡</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
